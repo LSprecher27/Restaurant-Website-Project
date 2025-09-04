@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>City Wok - Menu</title>
+    <style>
+        /* General body styles for a dated feel */
+        body {
+            font-family: "Courier New", Courier, monospace;
+            background-color: #F5F5DC;
+            color: #000000;
+            margin: 0;
+            text-align: center;
+        }
+
+        /* Container for content */
+        .container {
+            width: 760px;
+            margin: 20px auto;
+            border: 2px solid #331100;
+            background-color: #A90515;
+            padding: 20px;
+            box-shadow: 5px 5px 0px #FFD700;
+        }
+
+        /* Header and Navigation */
+        header {
+            border-bottom: 3px dashed #FFD700;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        header img {
+            height: 120px;
+            border: 3px solid #FFD700;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: #FFD700;
+            text-decoration: underline;
+        }
+
+        /* Page Title Section */
+        .page-title-section {
+            background-color: #A90515;
+            padding: 10px;
+            border: 1px solid #FFD700;
+            margin-bottom: 20px;
+            color: #FFD700;
+        }
+        .page-title-section h1 {
+            color: #FFD700;
+            font-size: 2em;
+        }
+
+        /* Menu Categories */
+        .menu-categories {
+            background-color: #F0E68C;
+            padding: 10px;
+            border: 1px dashed #331100;
+            margin-bottom: 20px;
+        }
+        .menu-categories ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .menu-categories li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .menu-categories a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Menu Items Section */
+        .menu-items {
+            background-color: #F5F5DC;
+            border: 2px solid #331100;
+            padding: 20px;
+            color: #000000;
+        }
+        .menu-category-title {
+            color: #A90515;
+            font-size: 1.5em;
+            text-align: left;
+            border-bottom: 2px dashed #A90515;
+            margin-top: 0;
+            padding-bottom: 5px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .item-name-price {
+            flex-grow: 1;
+        }
+        .item-name {
+            font-weight: bold;
+            font-size: 1.1em;
+            display: inline-block;
+        }
+        .item-price {
+            font-weight: bold;
+            color: #A90515;
+            display: inline-block;
+        }
+        .item-description {
+            margin-top: 5px;
+            font-size: 0.9em;
+        }
+        .dietary {
+            font-size: 0.8em;
+            font-style: italic;
+        }
+        .hr-dotted {
+            border: none;
+            border-top: 1px dashed #331100;
+        }
+        
+        /* Footer */
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            border-top: 1px dashed #FFD700;
+            padding-top: 10px;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="citywoklogo.webp" alt="City Wok Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="page-title-section">
+            <h1>Our Menu</h1>
+            <p>Authentic Chinese food brought to you by a very authentic Chinese guy!</p>
+        </div>
+
+        <div class="menu-categories">
+            <ul>
+                <li><a href="#appetizers">Appetizers</a></li>
+                <li><a href="#mains">Main Dishes</a></li>
+                <li><a href="#desserts">Desserts</a></li>
+                <li><a href="#beverages">Beverages</a></li>
+            </ul>
+        </div>
+
+        <div class="menu-items">
+            <h2 id="appetizers" class="menu-category-title">Appetizers</h2>
+            <div class="menu-item">
+                <div class="item-name-price">
+                    <span class="item-name">Egg Roll</span> <span class="item-price">$2.50</span>
+                </div>
+                <div class="item-description">
+                    Crispy fried roll with cabbage and mystery meat. Served with lukewarm sauce.
+                </div>
+            </div>
+            <hr class="hr-dotted">
+            <div class="menu-item">
+                <div class="item-name-price">
+                    <span class="item-name">Wonton Soup</span> <span class="item-price">$3.99</span>
+                </div>
+                <div class="item-description">
+                    Wontons. In soup. What more do you want?
+                </div>
+            </div>
+            
+            <br>
+            
+            <h2 id="mains" class="menu-category-title">Main Dishes</h2>
+            <div class="menu-item">
+                <div class="item-name-price">
+                    <span class="item-name">City Beef</span> <span class="item-price">$12.99</span>
+                </div>
+                <div class="item-description">
+                    Our famous City Beef! It's beef, from the city. Or so we're told. Might be horse meat. Served with rice.
+                </div>
+            </div>
+            <hr class="hr-dotted">
+            <div class="menu-item">
+                <div class="item-name-price">
+                    <span class="item-name">Szechuan Chicken</span> <span class="item-price">$11.50</span>
+                </div>
+                <div class="item-description">
+                    A spicy chicken dish that will make your face tingle. Or maybe that's just the MSG.
+                </div>
+            </div>
+
+            <br>
+
+            <h2 id="desserts" class="menu-category-title">Desserts</h2>
+            <div class="menu-item">
+                <div class="item-name-price">
+                    <span class="item-name">Fortune Cookie</span> <span class="item-price">$0.50</span>
+                </div>
+                <div class="item-description">
+                    Crack it open and see your future! Hopefully it's better than your meal.
+                </div>
+            </div>
+
+            <br>
+
+            <h2 id="beverages" class="menu-category-title">Beverages</h2>
+            <div class="menu-item">
+                <div class="item-name-price">
+                    <span class="item-name">Tap Water</span> <span class="item-price">$1.00</span>
+                </div>
+                <div class="item-description">
+                    Straight from the tap. Filtered? Maybe. Maybe not.
+                </div>
+            </div>
+            <hr class="hr-dotted">
+            <div class="menu-item">
+                <div class="item-name-price">
+                    <span class="item-name">Soda</span> <span class="item-price">$2.00</span>
+                </div>
+                <div class="item-description">
+                    A can of soda. Don't ask for a cup, you're getting the can.
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 City Wok. All Rights Reserved. Thank you for your business.</p>
+        </footer>
+    </div>
+</body>
+</html>

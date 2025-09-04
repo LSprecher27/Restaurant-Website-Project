@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>City Wok - About Us</title>
+    <style>
+        
+        body {
+            font-family: "Courier New", Courier, monospace;
+            background-color: #F5F5DC;
+            color: #000000;
+            margin: 0;
+            text-align: center;
+        }
+
+ 
+        .container {
+            width: 760px;
+            margin: 20px auto;
+            border: 2px solid #331100;
+            background-color: #A90515;
+            padding: 20px;
+            box-shadow: 5px 5px 0px #FFD700;
+        }
+
+   
+        header {
+            border-bottom: 3px dashed #FFD700;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        header img {
+            height: 120px;
+            border: 3px solid #FFD700;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: #FFD700;
+            text-decoration: underline;
+        }
+
+      
+        .hero-image-section {
+            padding: 10px;
+            border: 1px solid #FFD700;
+            margin-bottom: 20px;
+        }
+        .hero-image-section img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #331100;
+        }
+
+        
+        .our-story-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+            background-color: #F5F5DC;
+            border: 2px solid #331100;
+            padding: 20px;
+            text-align: left;
+            margin-bottom: 20px;
+            box-shadow: 3px 3px 0px #FFD700;
+        }
+        .owner-photo {
+            flex-shrink: 0;
+            width: 40%;
+            text-align: center;
+        }
+        .owner-photo img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #331100;
+        }
+        .story-text {
+            flex-grow: 1;
+        }
+
+        
+        .values-mission-section {
+            background-color: #F0E68C;
+            border: 1px dashed #331100;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .values-mission-section h2 {
+            color: #331100;
+        }
+        .icon-row {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .icon-item {
+            width: 30%;
+        }
+
+       
+        .section-title {
+            color: #FFD700;
+            font-size: 2em;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        .our-story-section .section-title {
+            color: #A90515;
+        }
+        .values-mission-section .section-title {
+            color: #331100; 
+        }
+        
+       
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            border-top: 1px dashed #FFD700;
+            padding-top: 10px;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="citywoklogo.webp" alt="City Wok Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="hero-image-section">
+            <img src="citywok.jpg" alt="Interior of City Wok restaurant.">
+        </div>
+
+        <div class="our-story-section">
+            <h2 class="section-title">Our Story</h2>
+            <div class="owner-photo">
+                <img src="Tuonglukim.webp" alt="Photo of the owner, Tuong Lu Kim.">
+                <h3>Tuong Lu Kim</h3>
+                <p>Owner & Founder</p>
+            </div>
+            <div class="story-text">
+                <p>Welcome to City Wok. My name is Tuong Lu Kim, and I am the owner. I came here a long time ago with an idea: make food. We got fresh things from the city, and we put it on a plate for you to eat. No big vision. No fancy philosophy. Just food.</p>
+                <p>We work hard, but we don't have to be happy about it. You want food, we have food. That is the story. Now you know. Go eat something.</p>
+            </div>
+        </div>
+
+        <div class="values-mission-section">
+            <h2 class="section-title">What We Believe In</h2>
+            <div class="icon-row">
+                <div class="icon-item">
+                    <h3>Hard Work</h3>
+                    <p>We work very hard. It is a long day. Very long.</p>
+                </div>
+                <div class="icon-item">
+                    <h3>Food Stuff</h3>
+                    <p>We believe in giving you food. You will eat it. Probably.</p>
+                </div>
+                <div class="icon-item">
+                    <h3>No Problems</h3>
+                    <p>We have no problems here. If you have a problem, that is your problem.</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 City Wok. All Rights Reserved. Thank you for your business.</p>
+        </footer>
+    </div>
+</body>
+</html>
