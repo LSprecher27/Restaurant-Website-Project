@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>City Wok - Please Try Our City Beef</title>
+    <style>
+        /* General body styles for a dated feel */
+        body {
+            font-family: "Courier New", Courier, monospace;
+            background-color: #F5F5DC; /* Soft beige background */
+            color: #000000; /* Black text for readability */
+            margin: 0;
+            text-align: center;
+        }
+
+        /* Container for content */
+        .container {
+            width: 760px;
+            margin: 20px auto;
+            border: 2px solid #331100; /* Dark brown border */
+            background-color: #A90515; /* Deep red container */
+            padding: 20px;
+            box-shadow: 5px 5px 0px #FFD700; /* Gold shadow */
+        }
+
+        /* Header and Navigation */
+        header {
+            border-bottom: 3px dashed #FFD700; /* Gold dashed line */
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        header img {
+            height: 120px;
+            border: 3px solid #FFD700;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: #FFD700; /* Gold links */
+            text-decoration: underline;
+        }
+
+        /* Hero Section (now just a simple banner) */
+        .hero {
+            background-color: #A90515; /* Same red as container */
+            padding: 10px;
+            border: 1px solid #FFD700;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            color: #FFD700; /* Gold text */
+        }
+
+        .hero h1 {
+            color: #FFD700;
+        }
+
+        .hero p {
+            color: #FFD700;
+        }
+
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #FFD700;
+            margin-top: 10px;
+        }
+
+        /* Section Titles */
+        .section-title {
+            /* This is the general section title. */
+            /* We will override it specifically for testimonials below */
+            color: #FFD700; /* Gold headers for sections outside of testimonials */
+            font-size: 2em;
+            text-decoration: none;
+        }
+
+        /* Featured Highlights */
+        .highlights-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .highlight-item {
+            width: 30%;
+            border: 2px solid #331100;
+            background-color: #F5F5DC; /* Soft beige background */
+            padding: 10px;
+            box-shadow: 3px 3px 0px #FFD700;
+            color: #000000;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            background-color: #F0E68C; /* A goldenrod shade */
+            border: 1px dashed #331100;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Specific style for Testimonials header */
+        .testimonials .section-title { /* Targeting section-title ONLY inside testimonials */
+            color: #331100; /* Dark brown for readability on goldenrod */
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            border-top: 1px dashed #FFD700;
+            padding-top: 10px;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="citywoklogo.webp" alt="City Wok Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="hero">
+            <h1>Welcome to City Wok! The best, most authentic City Wok in town!</h1>
+            <p>You want food? We got food. Please try our City Beef!</p>
+            <img src="citywok.jpg" alt="Picture of City Wok restaurant, don't judge it.">
+        </div>
+
+        <h2 class="section-title">What You Want To See</h2>
+        <div class="highlights-grid">
+            <div class="highlight-item">
+                <a href="menu.html">
+                    <h3>Eat Our Delicious Dishes</h3>
+                    <p>You hungry? We got rice. And other stuff. Come get it!</p>
+                </a>
+            </div>
+            <div class="highlight-item">
+                <a href="hours.html">
+                    <h3>Where We Are & When We Open</h3>
+                    <p>Find us in South Park, Colorado. We're open 9-11pm. We want you to come eat.</p>
+                </a>
+            </div>
+            <div class="highlight-item">
+                <h3>Events</h3>
+                <p>Stay tuned for upcoming events, including our annual "City Sushi" showdown. It's a test of skill, endurance, and questionable food handling.</p>
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <h2 class="section-title">Who Likes Our City Food?</h2>
+            <div class="testimonial-quote">
+                <p>"This place is interesting to say the least, the owner scares me and the food is alright I guess" - A Very Happy Customer</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 City Wok. All Rights Reserved. Thank you for your business.</p>
+        </footer>
+    </div>
+</body>
+</html>
